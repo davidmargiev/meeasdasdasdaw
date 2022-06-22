@@ -22,10 +22,10 @@
                 </a>
                 <nav class="header__menu menu">
                     <ul class="menu__list">
-                        <li class="menu__item"><a href="index.php" class="menu__link">HOME</a></li>
-                        <li class="menu__item"><a href="/pages/features/features.html" class="menu__link">FEATURES</a></li>
-                        <li class="menu__item"><a href="/pages/support/support.html" class="menu__link">SUPPORT</a></li>
-                        <li class="menu__item"><a href="/pages/contact us/contact.html" class="menu__link">CONTACT US</a></li>
+                        <li class="menu__item"><a href="/index.php" class="menu__link">HOME</a></li>
+                        <li class="menu__item"><a href="/features.php" class="menu__link">FEATURES</a></li>
+                        <li class="menu__item"><a href="/support.php" class="menu__link">SUPPORT</a></li>
+                        <li class="menu__item"><a href="/reviews.php" class="menu__link">REVIEWS</a></li>
                     </ul>
                 </nav>
                 <div class="header__button">

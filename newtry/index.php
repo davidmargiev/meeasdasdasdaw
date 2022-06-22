@@ -13,10 +13,10 @@
                             <p1>Our service intelligently bypasses spam blocks.</p1>
                         </div>
                         <div class="content__alt reviews__alt">
-                            <div class="content__alt-icon"><a href="/pages/reviews/reviews.html"><img src="/img/fire.svg" alt="fire"></a></div>
+                            <div class="content__alt-icon"><a href="reviews.php"><img src="/img/fire.svg" alt="fire"></a></div>
                             <div class="content__alt-additional">
                                 <div class="content__alt-text">Be confident in EmailGo</div>
-                                <a href="/pages/reviews/reviews.html" class="content__alt-link">READ LATEST REVIEWS</a>
+                                <a href="reviews.php" class="content__alt-link">READ LATEST REVIEWS</a>
                             </div>
                         </div>
                     </div>
@@ -37,10 +37,10 @@
                                 We use certified data processing centers in St. Petersburg and Moscow.</p1>
                         </div>
                         <div class="content__alt support__alt">
-                            <div class="content__alt-icon"><a href="/pages/support/support.html"><img src="/img/chat.svg" alt="chat"></a></div>
+                            <div class="content__alt-icon"><a href="support.php"><img src="/img/chat.svg" alt="chat"></a></div>
                             <div class="content__alt-additional">
                                 <div class="content__alt-text">Any problems?</div>
-                                <a href="/pages/support/support.html" class="content__alt-link">GO TO THE FEEDBACK FORM</a>
+                                <a href="support.php" class="content__alt-link">GO TO THE FAQ</a>
                             </div>
                         </div>
                     </div>
@@ -62,10 +62,10 @@
                                 for our clients!In case of any problems with sending letters, a refund is provided.</p1>
                         </div>
                         <div class="content__alt features__alt">
-                            <div class="content__alt-icon"><a href="/pages/features/features.html"><img src="/img/light.svg" alt="light"></a></div>
+                            <div class="content__alt-icon"><a href="features.php"><img src="/img/light.svg" alt="light"></a></div>
                             <div class="content__alt-additional">
                                 <div class="content__alt-text">Measure seven times...</div>
-                                <a href="/pages/features/features.html" class="content__alt-link">SEE OUR FEATURES</a>
+                                <a href="features.php" class="content__alt-link">SEE OUR FEATURES</a>
                             </div>
                         </div>
                     </div>
@@ -74,11 +74,11 @@
             <section class="sum">
                 <div class="sum__container">
                 <div class="content__tittle sum__tittle">Let's sum up</div>
-                <div class="sum__text">Signup to us and be a part of the new marketing culture.<br>Bringing premium features to your fingertips.</div>
+                <div class="sum__text content__text">Signup to us and be a part of the new marketing culture.<br>Bringing premium features to your fingertips.</div>
                 <div class="features__blocks">
-                    <div class="features__simple"><a href="/pages/features/features.html"><img class="blocks" src="/img/time.svg" alt="time"></a></div>
-                    <div class="features__support"><a href="/pages/knowledge base/FAQ.html"><img class="blocks" src="/img/like_full.svg" alt="like"></a></div>
-                    <div class="features__security"><a href="/pages/about us/about.html"><img class="blocks" src="/img/security_full.svg" alt="se"></a></div>
+                    <div class="features__simple"><a href="workspace.php"><img class="blocks" src="/img/time.svg" alt="time"></a></div>
+                    <div class="features__support"><a href="support.php"><img class="blocks" src="/img/like_full.svg" alt="like"></a></div>
+                    <div class="features__security"><a href="reviews.php"><img class="blocks" src="/img/security_full.svg" alt="se"></a></div>
                 </div>
             </div>
             </section>

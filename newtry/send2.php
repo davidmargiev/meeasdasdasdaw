@@ -6,8 +6,8 @@ require "header.php";
         <div class="templetes__container">
             <form method="post" action="data.php">
                 <div class="area">
-                    <input type="text" placeholder="Subject..." name="subject_temple1" id="subject">
-                    <input type="email" multiple="multiple" required="required" placeholder="Emails..." name="emails_temple1" id="emails">
+                    <input type="text" placeholder="Subject..." name="subject_temple2" id="subject">
+                    <input type="email" multiple="multiple" required="required" placeholder="Emails..." name="emails_temple2" id="emails">
                     <input class="upload__btn content__text" type="submit" value="Submit" />
                 </div>
             </form>

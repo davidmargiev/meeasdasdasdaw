@@ -17,12 +17,6 @@
     flex: 0 0 auto;
   }
 
-  body {
-    font-family: Rubik;
-    font-size: 18px;
-    color: #616161;
-  }
-
   [class*="__container"] {
     /* селектор ограничивающего контейнера */
     max-width: 1070px;
@@ -195,7 +189,7 @@
     margin-top: 77px;
     justify-content: space-between;
   }
-
+  
   .support__text {
     width: 479px;
     height: 254px;
@@ -302,7 +296,7 @@
    .templetes__img{
      margin-top: 50px;
      display: flex;
-     justify-content: space-between;
+     justify-content: center;
    }
 
    .templetes__block{
@@ -312,3 +306,236 @@
    .templetes__block:hover {
     transform: scale(1.2);
   }
+
+   .non-html__block {
+    margin-top: 50px;
+    width:1070px;
+   }
+
+   * {
+    box-sizing:border-box;
+  }
+  body {
+    margin:20px;
+    background-color: #fafafa;
+  }
+  textarea {
+    font-size: 18px;
+    font-family: 'Rubik';
+    resize: vertical;
+    padding:15px;
+    border-radius:15px;
+    border:0;
+    box-shadow:4px 4px 10px #616161;
+    height:300px;
+  }
+  .upload__btn{
+    appearance: none;
+    border: 0;
+    border-radius: 10px;
+    background: #4676D7;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+    width: 100px;
+    height: 50px;
+  }
+  .upload__btn:hover {
+    background: #1d49aa;
+  }
+  
+  .upload__btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+  }
+  .area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  input{
+    width: 1070px;
+    margin-top: 50px;
+    font-size: 18px;
+    font-family: 'Rubik';
+    resize: vertical;
+    padding:15px;
+    border-radius:15px;
+    border:0;
+    box-shadow:4px 4px 10px #616161;
+  }
+  
+
+/***********************************************************/
+  .done__container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+/***********************************************************/
+
+  .features__page{
+    margin-top: 220px;
+    text-align: center;
+  }
+
+  .steps{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .step{
+    margin-top: 50px;
+  }
+  .step1{
+    margin-top: 43px;
+  }
+  .steps__text{
+    width: 300px;
+  }
+  .content__step{
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-family: 'Rubik';
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  .premade__tittle{
+    margin-top: 150px;
+  }
+
+  .premade__block{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .premade__text{
+    width: 500px;
+  }
+
+  .premade__visual{
+    width: 500px;
+    margin-top: 45px;
+    height: 300px;
+  }
+
+  .work{
+    transition: all 1s ease;
+  }
+
+  .work:hover{
+    color: #0CD681;
+  }
+
+  .premade__container{
+    padding-bottom: 70px;
+  }
+
+/***********************************************************/
+
+.reviews__list{
+  padding-top: 220px;
+}
+
+.image__path{
+  display: flex;
+  align-items: center;
+  width: 400px;
+}
+
+.alt__path{
+  margin-left: 15px;
+}
+
+.reviews__color1{
+background-color: #bbecec;
+}
+
+.users__img{
+  height: 115px;
+  width: 115px;
+}
+
+.reviews__user {
+  padding-left: 50px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Rubik';
+}
+
+.stars{
+  width: 150px;
+}
+
+.path__text{
+  padding-bottom: 5px;
+  padding-left: 18px;
+  width: 200px;
+}
+
+.text__path{
+  letter-spacing: 1px;
+}
+
+.see__tittle{
+  text-align: center;
+  font-family: 'Rubik';
+  font-size: 35px;
+  font-weight: bold
+}
+
+.social__networks{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.network__logo{
+  width: 50px;
+  height: 50px;
+}
+
+.head__container{
+  display: flex;
+}
+
+/***********************************************************/
+
+.support__questions{
+  padding-top: 170px;
+}
+
+.question__text{
+  padding-top: 50px;
+  font-family: 'Rubik';
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.answer__text{
+  padding-top: 20px;
+  font-family: 'Rubik';
+  font-size: 25px;
+  color: #616161;
+}
+
+.questions__img{
+  display: flex;
+  justify-content: center;
+}
+
+.answer__link{
+  color: #0CD681;
+  text-transform: uppercase;
+  transition: all 1s ease;
+}
+
+.answer__link:hover{
+  color: #000;
+}

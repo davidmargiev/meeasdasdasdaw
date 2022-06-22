@@ -3,35 +3,25 @@
             <div class="e-mailGo">
                 <div class="footer__tittle">E-mailGo</div>
                 <ul class="footer__text">
-                    <li><a href="/pages/about us/about.html">About us</a></li>
-                    <li><a href="/pages/contact us/contact.html">Contacts</a></li>
-                    <li><a href="/pages/reviews/reviews.html">Reviews</a></li>
-                    <li><a href="/pages/jobs/jobs.html">Jobs</a></li>
-                    <li><a href="/pages/map/map.html">Site`s map</a></li>
-                </ul>
-            </div>
-            <div class="information">
-                <div class="footer__tittle">Information</div>
-                <ul class="footer__text">
-                    <li><a href="/pages/support/support.html">Support</a></li>
-                    <li><a href="/pages/knowledge base/FAQ.html">Knowledge Base</a></li>
+                    <li><a href="reviews.php">Reviews</a></li>
+                    <li><a href="features.php">Features</a></li>
+                    <li><a href="support.php">Support</a></li>
                 </ul>
             </div>
             <div class="company">
                 <div class="footer__tittle">Our Company</div>
                 <ul class="footer__text">
-                    <li><a href="#">Terms of use</a></li>
-                    <li><a href="#">Antispam policy</a></li>
-                    <li><a href="#">Privacy policy</a></li>
-                    <li><a href="#">Cookie policy</a></li>
-                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="/terms/use.docx">Terms of use</a></li>
+                    <li><a href="/terms/antispam.docx">Antispam policy</a></li>
+                    <li><a href="/terms/privacy.docx">Privacy policy</a></li>
+                    <li><a href="/terms/cookie.docx">Cookie policy</a></li>
+                    <li><a href="/terms/refund.docx">Refund Policy</a></li>
                 </ul>
             </div>
             <div class="tools">
                 <div class="footer__tittle">Tools</div>
                 <ul class="footer__text">
-                    <li><a href="validator.php">E-mail validator</a></li>
-                    <li><a href="workspace.php">Free Templates</a></li>
+                    <li><a href="workspace.php">Our workspace</a></li>
                 </ul>
             </div>
             <div class="number">
